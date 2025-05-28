@@ -1,9 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Geraa</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>MitaliEvents</title>
   </head>
   <body>
-    Geruuu
+    <header class="header">
+      <a href="#">
+        <!-- add logo here  -->
+        <img class="logo" alt="MitaliEvents logo" src="img/main_logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">About Us</a></li>
+          <li><a class="main-nav-link" href="#">Portfolio</a></li>
+          <li><a class="main-nav-link" href="#">Our Reputative Clients</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Know More</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Where music <br />
+              meets celebration — event excellence since 2004
+            </h1>
+            <p class="hero-description">
+              Mitali Events blends creativity, sound, and style to turn your
+              events into unforgettable experiences.<br />With two decades of
+              expertise in music and event planning, we deliver seamless,
+              high-impact moments—from corporate stages to intimate weddings.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Explore Our Work</a
+            >
+            <a href="#" class="btn btn--outline">Book a Consultation &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text"><span>5,000+</span> Happy Clients!</p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/hero_section_image.png"
+              class="hero-img"
+              alt="event planning, music, wedding, dulha, dulhan"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img
+              src="img/featuredIcon/ca-logo.png"
+              alt="CA logo"
+              style="height: 4.5rem"
+            />
+            <img src="img/featuredIcon/flipkart.png" alt="flipkart" />
+            <img src="img/featuredIcon/glen-logo.png" alt="GLEN logo" />
+            <img
+              src="img/featuredIcon/indian-oil-logo.png"
+              alt="Indian Oil"
+              style="height: 5rem"
+            />
+            <img
+              src="img/featuredIcon/seci_logo.png"
+              alt="SECI logo"
+              style="height: 5rem"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-aboutus">
+        <div class="container">
+          <span class="subheading">About Us</span>
+          <h2 class="heading-secondary">
+            Creative team delivering exceptional experiences.
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="princing-plan princing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">Staring</p>
+
+              <img
+                src="img/nakul-theGreat.png"
+                class="nakul-hero"
+                alt="The Legend"
+              />
+            </header>
+          </div>
+
+          <div class="princing-plan princing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">About Us</p>
+              <p class="plan-text">
+                <br>
+                Mitali Events is a name in the field of music arrangement and
+                event management for about two decades. Known for its quality
+                work, Mitali Events has been giving back to back hit events ever
+                since our team have been on stage. <br>
+                <br>
+                We are well known for the variety of performances and artists
+                that we provide, from classical music events and ghazal shows to
+                western rock, wedding events, music composing and recording have
+                all been our forte.
+              </p>
+            </header>
+          </div>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="happy-outline"></ion-icon>
+            <p class="feature-title">Happy Clients</p>
+            <p class="feature-text">
+              Over 5000 happy clients trust us for exceptional service and
+              experiences.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="checkmark-done-circle-outline"
+            ></ion-icon>
+            <p class="feature-title">Events Done</p>
+            <p class="feature-text">
+              Successfully organized 5300 unforgettable events with passion,
+              precision, and creativity.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="briefcase-outline"></ion-icon>
+            <p class="feature-title">Years in Business</p>
+            <p class="feature-text">
+              Proudly serving clients for 15 years with dedication, excellence,
+              and unforgettable experiences.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="people-outline"></ion-icon>
+            <p class="feature-title">Team Size</p>
+            <p class="feature-text">
+              A strong team of 850 experts driving innovation, quality, and
+              exceptional service delivery.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Event Gallery -->
+      <section class="section-event-gallery">
+        <div class="event-gallery-heading-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+        </div>
+
+        <!-- Event Gallery -->
+        <div class="event-gallery">
+          <link
+            href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+            rel="stylesheet"
+            id="bootstrap-css"
+          />
+          <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+          <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+          <!------ Include the above in your HEAD tag ---------->
+
+          <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+          />
+          <section>
+            <div class="container gal-container">
+              <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#1">
+                    <img
+                      src="img/galary/galary-image-1.jpg"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#2">
+                    <img
+                      src="img/galary/galary-image-6.png"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#3">
+                    <img
+                      src="img/galary/galary-image-5.png"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#4">
+                    <img
+                      src="img/galary/galary-image-8.png"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#5">
+                    <img
+                      src="img/galary/galary-image-2.jpg"
+                    />
+                  </a>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#9">
+                    <img
+                      src="img/galary/galary-image-3.jpg"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#10">
+                    <img
+                      src="img/galary/galary-image-7.png"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#11">
+                    <img
+                      src="img/galary/galary-image-4.jpg"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#12">
+                    <img
+                      src="img/galary/galary-image-10.png"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                <div class="box">
+                  <a href="#" data-toggle="modal" data-target="#13">
+                    <img
+                      src="img/galary/galary-image-11.jpg"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer></footer>
+        </div>
+      </section>
+
+      <!-- Our Reputed Clients -->
+      <section class="reputed-clients-section">
+        <div class="reputed-clients-container">
+          <div class="heading">
+            <!-- <h2>Our Reputed Clients</h2> -->
+            <span class="subheading">Our Reputed Clients</span>
+          </div>
+
+          <!-- <div class="subheading"> -->
+              <h2 class="heading-secondary heading-reputed-clients-container"> Clients include a number of government and private sector companies. Listing some of them here: </h2>
+
+          <div class="clients-list">
+            <ul>
+              <li>
+                Indian Oil Corporation Ltd.
+              </li>
+              <li>
+                National Council for Cement and Building Materials
+              </li>
+              <li>
+                Solar Energy Corporation of India
+              </li>
+              <li>
+                Container Corporation of India Ltd.
+              </li>
+              <li>
+                IPAMA
+              </li>
+              <li>
+                ICAI Nothern Region
+              </li>
+              <li>
+                Shree ram Pistons and Rings Ltd.
+              </li>
+              <li>
+                Glenn Appliances
+              </li>
+              <li>
+                Flipkart
+              </li>
+              <li>
+                State Bank of Credit and Risk Management
+              </li>
+              <li>
+                Grey Orange India (P) Ltd.
+              </li>
+              <li>
+                International Center for Generic Engineering and Biotechnology (GOI)
+              </li>
+              <li>
+                NLGD India Chapter
+              </li>
+              <li>
+                National Institute of Commerce and Finance
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="MitaliEvents logo" src="img/main_logo.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2004 by Mitali Events, Inc. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
